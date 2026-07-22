@@ -18,7 +18,7 @@ export const Footer = () => {
               <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-secondary to-accent">
                 <Hexagon className="text-white w-5 h-5" />
               </div>
-              <span className="font-heading font-bold text-2xl tracking-tight">WhyWays</span>
+              <span className="font-heading font-bold text-2xl tracking-tight">NXDigita AI Technologies</span>
             </Link>
             <p className="text-muted-foreground mb-8 max-w-sm">
               We help startups, enterprises, and organizations transform ideas into scalable AI-powered software products.
@@ -68,9 +68,9 @@ export const Footer = () => {
             <h4 className="font-heading font-bold text-lg mb-6">Contact</h4>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:hello@whyways.tech" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors group">
+                <a href="mailto:hello@nxdigita.ai" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors group">
                   <Mail size={18} className="mt-0.5 group-hover:text-secondary" />
-                  <span>hello@whyways.tech</span>
+                  <span>hello@nxdigita.ai</span>
                 </a>
               </li>
               <li>
@@ -90,7 +90,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground text-center md:text-left">
-            Copyright &copy; {new Date().getFullYear()} WhyWays Technologies. All rights reserved.
+            Copyright &copy; {new Date().getFullYear()} NXDigita AI Technologies. All rights reserved.
           </p>
           
           <div className="flex items-center gap-6">

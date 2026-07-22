@@ -100,7 +100,7 @@ export const WhyChooseUs = () => {
           <div>
             <div className="inline-flex items-center gap-2 text-secondary font-medium tracking-wider text-sm uppercase mb-4">
               <span className="w-8 h-px bg-secondary" />
-              The WhyWays Advantage
+              The NXDigita Advantage
             </div>
             
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-12">

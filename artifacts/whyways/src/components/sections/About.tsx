@@ -69,7 +69,7 @@ export const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              WhyWays Technologies is a technology consulting and software engineering company delivering AI-powered products, enterprise applications, cloud platforms, business automation, and digital transformation services globally.
+              NXDigita AI Technologies is a technology consulting and software engineering company delivering AI-powered products, enterprise applications, cloud platforms, business automation, and digital transformation services globally.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-10">

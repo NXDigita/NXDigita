@@ -4,7 +4,7 @@ import { Quote, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "WhyWays transformed our diagnostic workflow completely. The AI models they integrated reduced our processing time by 60% while improving accuracy. True engineering partners.",
+    quote: "NXDigita AI Technologies transformed our diagnostic workflow completely. The AI models they integrated reduced our processing time by 60% while improving accuracy. True engineering partners.",
     author: "Dr. Sarah Chen",
     role: "CTO, MedCore Health",
     avatar: "SC"

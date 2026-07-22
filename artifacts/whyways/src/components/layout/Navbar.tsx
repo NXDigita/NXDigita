@@ -60,7 +60,7 @@ export const Navbar = () => {
             <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-secondary to-accent">
               <Hexagon className="text-white w-5 h-5 group-hover:rotate-12 transition-transform" />
             </div>
-            <span className="font-heading font-bold text-xl tracking-tight">WhyWays</span>
+            <span className="font-heading font-bold text-xl tracking-tight">NXDigita AI Technologies</span>
           </Link>
 
           {/* Desktop Nav */}
