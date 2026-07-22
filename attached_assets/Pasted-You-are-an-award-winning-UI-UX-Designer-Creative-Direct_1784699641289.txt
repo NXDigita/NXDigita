@@ -1,0 +1,587 @@
+You are an award-winning UI/UX Designer, Creative Director, and Senior Full Stack Developer.
+
+Create a modern, premium, enterprise-level responsive website for an AI, Software Development, Digital Transformation, and Product Engineering company called "WhyWays Technologies".
+
+IMPORTANT:
+Do NOT copy any existing website. The design should be completely original while matching the quality, professionalism, and premium experience of top global software companies.
+
+Website Style:
+• Clean
+• Premium
+• Modern
+• Futuristic
+• Corporate
+• Elegant
+• High Conversion
+• Minimal yet visually engaging
+
+Design Language:
+- Large whitespace
+- Glassmorphism effects
+- Soft gradients
+- Animated blobs
+- Smooth scrolling
+- Rounded cards (20-24px radius)
+- Subtle shadows
+- Animated hover interactions
+- Scroll reveal animations
+- Floating UI elements
+- Beautiful micro interactions
+- Animated counters
+- Interactive timeline
+- Modern typography
+
+Use:
+Font:
+- Space Grotesk
+- Inter
+
+Color Palette:
+
+Primary:
+#0B1F3A
+
+Secondary:
+#0F62FE
+
+Accent:
+#00C2FF
+
+Highlight:
+#6C63FF
+
+Background:
+#F8FAFC
+
+Dark Sections:
+#071A2F
+
+Text:
+#111827
+
+Light Text:
+#6B7280
+
+Buttons:
+Primary:
+Gradient Blue
+
+Secondary:
+White outline
+
+------------------------------------------------
+WEBSITE STRUCTURE
+------------------------------------------------
+
+Hero Section
+
+Full screen
+
+Animated gradient background
+
+Left Side
+
+Headline:
+
+Building Intelligent Digital Solutions
+Powered by AI, Engineering & Innovation
+
+Subheading:
+
+We help startups, enterprises, and organizations transform ideas into scalable AI-powered software products through strategy, design, engineering, and digital innovation.
+
+Buttons
+
+Start Your Project
+
+Explore Services
+
+Right Side
+
+Large floating illustration showing
+
+AI
+
+Cloud
+
+Analytics
+
+Software Development
+
+Mobile Apps
+
+Automation
+
+Background animation
+
+Floating geometric objects
+
+Particle effects
+
+Soft glow
+
+------------------------------------------------
+
+Trusted Companies Section
+
+Horizontal logo strip
+
+Animated continuously
+
+Example placeholders
+
+Microsoft
+
+AWS
+
+Google Cloud
+
+Meta
+
+Oracle
+
+IBM
+
+SAP
+
+------------------------------------------------
+
+About Section
+
+Two-column layout
+
+Left
+
+Large image with floating experience badge
+
+15+
+
+Years Experience
+
+Right
+
+Content
+
+Title
+
+Engineering Digital Growth
+
+Description
+
+WhyWays Technologies is a technology consulting and software engineering company delivering AI-powered products, enterprise applications, cloud platforms, business automation, and digital transformation services.
+
+Feature Cards
+
+Innovation
+
+Scalability
+
+Security
+
+Automation
+
+------------------------------------------------
+
+Services Section
+
+Grid of 8 premium cards
+
+AI Solutions
+
+Custom Software Development
+
+Web Development
+
+Mobile Apps
+
+Cloud Engineering
+
+UI UX Design
+
+Digital Marketing
+
+Business Automation
+
+Each card includes
+
+Custom icon
+
+Hover animation
+
+Read More button
+
+------------------------------------------------
+
+Why Choose Us
+
+Split layout
+
+Left
+
+Animated infographic
+
+Right
+
+6 reasons
+
+Industry Experts
+
+Agile Delivery
+
+Enterprise Security
+
+AI First Approach
+
+Dedicated Team
+
+24/7 Support
+
+------------------------------------------------
+
+Statistics Section
+
+Animated Counter
+
+250+
+
+Projects Delivered
+
+150+
+
+Clients
+
+25+
+
+Countries
+
+98%
+
+Client Satisfaction
+
+------------------------------------------------
+
+Process Timeline
+
+Horizontal interactive timeline
+
+Discovery
+
+Strategy
+
+Design
+
+Development
+
+Testing
+
+Deployment
+
+Support
+
+Each step expands on hover.
+
+------------------------------------------------
+
+Portfolio
+
+Modern Masonry Grid
+
+Project Cards
+
+Healthcare AI
+
+HR Platform
+
+Manufacturing ERP
+
+FinTech Dashboard
+
+Education LMS
+
+Real Estate Portal
+
+Hover animation
+
+Case Study button
+
+------------------------------------------------
+
+Industries
+
+Cards
+
+Healthcare
+
+Education
+
+Manufacturing
+
+Retail
+
+Finance
+
+Logistics
+
+Construction
+
+Government
+
+------------------------------------------------
+
+Technology Stack
+
+Animated icons
+
+React
+
+Next.js
+
+Node.js
+
+Python
+
+FastAPI
+
+TensorFlow
+
+OpenAI
+
+Flutter
+
+AWS
+
+Azure
+
+Docker
+
+Kubernetes
+
+MongoDB
+
+PostgreSQL
+
+------------------------------------------------
+
+Testimonials
+
+Modern slider
+
+Large quotation style
+
+Client photo
+
+Company
+
+Rating
+
+------------------------------------------------
+
+Latest Insights
+
+Three modern blog cards
+
+Large thumbnails
+
+Category
+
+Date
+
+Read More
+
+------------------------------------------------
+
+Call To Action
+
+Dark section
+
+Headline
+
+Let's Build Something Extraordinary Together
+
+Description
+
+Whether you're launching a startup or scaling an enterprise platform, our experts are ready to help.
+
+Buttons
+
+Book Consultation
+
+Get Proposal
+
+------------------------------------------------
+
+Footer
+
+Four columns
+
+Company
+
+Services
+
+Resources
+
+Contact
+
+Social Icons
+
+LinkedIn
+
+Instagram
+
+Facebook
+
+YouTube
+
+Copyright
+
+------------------------------------------------
+
+ANIMATIONS
+
+Framer Motion
+
+GSAP
+
+Scroll Reveal
+
+Fade Up
+
+Slide Left
+
+Zoom
+
+Parallax
+
+Mouse Follow
+
+Floating Elements
+
+Gradient Animation
+
+Button Ripple
+
+Card Tilt
+
+Counter Animation
+
+Accordion
+
+Smooth Scroll
+
+------------------------------------------------
+
+UI COMPONENTS
+
+Sticky transparent navbar
+
+Mega menu
+
+Animated buttons
+
+Rounded search box
+
+Floating WhatsApp
+
+Dark Mode Toggle
+
+Scroll Progress Bar
+
+Back to Top Button
+
+Cookie Notice
+
+Newsletter Form
+
+------------------------------------------------
+
+RESPONSIVE
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+Pixel perfect responsiveness.
+
+------------------------------------------------
+
+PERFORMANCE
+
+Lazy load images
+
+Optimized assets
+
+SEO Friendly
+
+Semantic HTML
+
+Accessibility (WCAG)
+
+Core Web Vitals optimized
+
+------------------------------------------------
+
+TECH STACK
+
+React 19
+
+Next.js
+
+Tailwind CSS
+
+TypeScript
+
+Framer Motion
+
+GSAP
+
+Lucide Icons
+
+React Hook Form
+
+ShadCN UI
+
+Use reusable components.
+
+Component architecture should be clean and scalable.
+
+------------------------------------------------
+
+EXTRA PREMIUM FEATURES
+
+Interactive cursor
+
+Animated gradient borders
+
+3D hover effects
+
+Glassmorphism sections
+
+Animated SVG backgrounds
+
+Floating CTA
+
+Interactive FAQ
+
+Pricing cards
+
+Contact form with validation
+
+Google Maps integration placeholder
+
+Calendly booking placeholder
+
+Newsletter integration placeholder
+
+------------------------------------------------
+
+GOAL
+
+The final website should feel like a premium global software consulting company similar in quality to companies such as Accenture, Cognizant, Deloitte Digital, TCS Digital, and Thoughtworks—but with its own unique visual identity.
+
+The experience should impress visitors within the first five seconds and maximize credibility, engagement, and lead generation.
+
+Generate the complete production-ready React + Next.js project with reusable components, proper folder structure, animations, responsive layouts, SEO metadata, and clean code following modern best practices.
