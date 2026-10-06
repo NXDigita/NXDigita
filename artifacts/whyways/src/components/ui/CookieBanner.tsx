@@ -3,19 +3,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 export const CookieBanner = () => {
+  const [show, setShow] = useState(false);
+ 
   const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
-    const hasConsented = localStorage.getItem('cookie-consent');
-    if (!hasConsented) {
-      // Delay showing the banner slightly
-      const timer = setTimeout(() => {
-        setIsVisible(true);
-      }, 2000);
-      return () => clearTimeout(timer);
-    }
-  }, []);
+  const consent = localStorage.getItem("cookie-consent");
+  if (consent) return undefined;      // was: return;  or nothing
 
+  const t = setTimeout(() => setShow(true), 1000);
+  return () => clearTimeout(t);
+}, []);
   const acceptCookies = () => {
     localStorage.setItem('cookie-consent', 'true');
     setIsVisible(false);
