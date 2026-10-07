@@ -65,7 +65,7 @@ export const About = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6 leading-tight">
-              Engineering Digital Growth <span className="text-muted-foreground">For Tomorrow</span>
+              Engineering Digital Growth <span className="text-[#E85B28]">For Tomorrow</span>
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
