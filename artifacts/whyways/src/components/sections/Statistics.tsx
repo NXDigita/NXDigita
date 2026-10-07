@@ -10,7 +10,7 @@ const stats = [
 
 export const Statistics = () => {
   return (
-    <section className="py-20 bg-[#071A2F] relative overflow-hidden text-white">
+    <section className="py-20 bg-[var(--navy)] relative overflow-hidden text-white">
       {/* Background elements */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-[120px] pointer-events-none" />
@@ -24,10 +24,10 @@ export const Statistics = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-accent/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
-              <div className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-2 drop-shadow-sm">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent to-[var(--brand-cyan-dark)] mb-2 drop-shadow-sm">
                 <AnimatedCounter value={stat.value} suffix={stat.suffix} />
               </div>
-              <div className="text-sm md:text-base font-medium text-slate-300">
+              <div className="text-sm md:text-base font-medium text-white/80">
                 {stat.label}
               </div>
             </div>

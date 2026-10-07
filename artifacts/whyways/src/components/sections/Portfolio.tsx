@@ -10,7 +10,7 @@ const projects = [
     title: 'Healthcare AI Diagnostic Platform',
     category: 'Healthcare',
     description: 'AI-powered diagnostic platform deployed across 500+ hospitals globally.',
-    image: 'from-blue-600 to-cyan-500',
+    image: 'from-accent to-[var(--brand-cyan-dark)]',
     span: 'col-span-1 md:col-span-2 row-span-2'
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     title: 'Enterprise HR Management',
     category: 'Enterprise',
     description: 'End-to-end HR platform serving 10,000+ employees.',
-    image: 'from-purple-600 to-indigo-500',
+    image: 'from-primary to-[var(--brand-orange-dark)]',
     span: 'col-span-1 md:col-span-1 row-span-1'
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     title: 'Smart Manufacturing ERP',
     category: 'Manufacturing',
     description: 'IoT-integrated ERP reducing factory downtime by 40%.',
-    image: 'from-emerald-600 to-teal-500',
+    image: 'from-accent to-[var(--brand-cyan-dark)]',
     span: 'col-span-1 md:col-span-1 row-span-1'
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     title: 'Real-time FinTech Dashboard',
     category: 'FinTech',
     description: 'High-frequency trading and financial intelligence platform.',
-    image: 'from-orange-600 to-amber-500',
+    image: 'from-primary to-[var(--brand-orange-dark)]',
     span: 'col-span-1 md:col-span-1 row-span-2'
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     title: 'Global Education LMS',
     category: 'Education',
     description: 'Interactive learning platform scaling to 2M+ active users.',
-    image: 'from-pink-600 to-rose-500',
+    image: 'from-accent to-[var(--brand-cyan-dark)]',
     span: 'col-span-1 md:col-span-2 row-span-1'
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     title: 'AI Property Engine',
     category: 'Real Estate',
     description: 'Machine learning driven property recommendation and pricing engine.',
-    image: 'from-sky-600 to-blue-500',
+    image: 'from-primary to-[var(--brand-orange-dark)]',
     span: 'col-span-1 md:col-span-1 row-span-1'
   }
 ];

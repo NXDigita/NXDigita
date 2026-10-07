@@ -8,21 +8,21 @@ const blogs = [
     date: "Jan 15, 2026",
     title: "The Future of AI in Enterprise Software",
     excerpt: "How large language models are fundamentally changing the architecture of enterprise applications.",
-    image: "from-blue-600 to-indigo-900"
+    image: "from-[var(--brand-cyan-dark)] to-[var(--navy)]"
   },
   {
     category: "Cloud",
     date: "Feb 3, 2026",
     title: "Why Cloud-Native Architecture Wins in 2026",
     excerpt: "Migrating legacy systems to cloud-native microservices: challenges, patterns, and ultimate ROI.",
-    image: "from-cyan-500 to-blue-600"
+    image: "from-accent to-[var(--brand-cyan-dark)]"
   },
   {
     category: "Mobile",
     date: "Mar 10, 2026",
     title: "Building Scalable Mobile Apps with Flutter",
     excerpt: "Our engineering approach to creating cross-platform mobile experiences that feel truly native.",
-    image: "from-purple-600 to-pink-600"
+    image: "from-primary to-[var(--brand-orange-dark)]"
   }
 ];
 

@@ -17,49 +17,49 @@ const services = [
     icon: BrainCircuit,
     title: "AI Solutions",
     description: "Custom AI models, LLM integrations, and intelligent automation for enterprise.",
-    color: "from-blue-500 to-cyan-400"
+    color: "from-accent to-[var(--brand-cyan-dark)]"
   },
   {
     icon: Code2,
     title: "Custom Software Development",
     description: "Enterprise-grade applications built for scale, performance, and security.",
-    color: "from-indigo-500 to-purple-400"
+    color: "from-primary to-[var(--brand-orange-dark)]"
   },
   {
     icon: LayoutTemplate,
     title: "Web Development",
     description: "High-performance web platforms, SPAs, and enterprise portals.",
-    color: "from-emerald-500 to-teal-400"
+    color: "from-accent to-[var(--brand-cyan-dark)]"
   },
   {
     icon: Smartphone,
     title: "Mobile Apps",
     description: "Cross-platform iOS and Android experiences that users love.",
-    color: "from-orange-500 to-yellow-400"
+    color: "from-primary to-[var(--brand-orange-dark)]"
   },
   {
     icon: Cloud,
     title: "Cloud Engineering",
     description: "AWS, Azure, and GCP architecture, migration, and DevOps services.",
-    color: "from-sky-500 to-blue-400"
+    color: "from-accent to-[var(--brand-cyan-dark)]"
   },
   {
     icon: PenTool,
     title: "UI/UX Design",
     description: "Research-driven, human-centric design that converts and engages.",
-    color: "from-pink-500 to-rose-400"
+    color: "from-primary to-[var(--brand-orange-dark)]"
   },
   {
     icon: TrendingUp,
     title: "Digital Marketing",
     description: "Data-driven growth, SEO, and performance marketing campaigns.",
-    color: "from-violet-500 to-fuchsia-400"
+    color: "from-accent to-[var(--brand-cyan-dark)]"
   },
   {
     icon: Workflow,
     title: "Business Automation",
     description: "Workflow automation, RPA, and business process optimization.",
-    color: "from-amber-500 to-orange-400"
+    color: "from-primary to-[var(--brand-orange-dark)]"
   }
 ];
 

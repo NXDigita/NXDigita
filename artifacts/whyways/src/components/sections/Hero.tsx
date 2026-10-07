@@ -25,7 +25,7 @@ export const Hero = () => {
   return (
     <section 
       ref={containerRef}
-      className="relative min-h-[100dvh] flex items-center pt-24 pb-12 overflow-hidden bg-primary dark:bg-[#040D1A]"
+      className="relative min-h-[100dvh] flex items-center pt-24 pb-12 overflow-hidden bg-[var(--navy)]"
     >
       {/* Animated Background */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
@@ -98,7 +98,7 @@ export const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed"
+              className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl leading-relaxed"
             >
               We help startups, enterprises, and organizations transform ideas into scalable AI-powered software products through strategy, design, engineering, and digital innovation.
             </motion.p>
@@ -136,7 +136,7 @@ export const Hero = () => {
                 </div>
                 <div>
                   <div className="text-white font-bold font-heading">250+</div>
-                  <div className="text-xs text-slate-400">Projects Delivered</div>
+                  <div className="text-xs text-white/60">Projects Delivered</div>
                 </div>
               </div>
               <div className="w-px h-10 bg-white/10 hidden sm:block" />
@@ -146,17 +146,17 @@ export const Hero = () => {
                 </div>
                 <div>
                   <div className="text-white font-bold font-heading">150+</div>
-                  <div className="text-xs text-slate-400">Happy Clients</div>
+                  <div className="text-xs text-white/60">Happy Clients</div>
                 </div>
               </div>
               <div className="w-px h-10 bg-white/10 hidden sm:block" />
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-[#6C63FF]/20 flex items-center justify-center border border-[#6C63FF]/30">
-                  <Star className="w-5 h-5 text-[#6C63FF]" />
+                <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center border border-accent/30">
+                  <Star className="w-5 h-5 text-accent" />
                 </div>
                 <div>
                   <div className="text-white font-bold font-heading">98%</div>
-                  <div className="text-xs text-slate-400">Satisfaction</div>
+                  <div className="text-xs text-white/60">Satisfaction</div>
                 </div>
               </div>
             </motion.div>
@@ -183,10 +183,10 @@ export const Hero = () => {
             
             {/* Satellite Nodes */}
             {[
-              { label: 'Cloud', delay: 0, color: 'from-[#00C2FF] to-blue-500', size: 'w-16 h-16', pos: 'top-10 left-[20%]' },
-              { label: 'Data', delay: 1, color: 'from-[#6C63FF] to-purple-500', size: 'w-12 h-12', pos: 'bottom-20 right-[15%]' },
-              { label: 'Mobile', delay: 2, color: 'from-secondary to-blue-600', size: 'w-20 h-20', pos: 'top-[40%] right-0' },
-              { label: 'Web', delay: 3, color: 'from-accent to-cyan-500', size: 'w-14 h-14', pos: 'bottom-[30%] left-0' },
+              { label: 'Cloud', delay: 0, color: 'from-accent to-[var(--brand-cyan-dark)]', size: 'w-16 h-16', pos: 'top-10 left-[20%]' },
+              { label: 'Data', delay: 1, color: 'from-primary to-[var(--brand-orange-dark)]', size: 'w-12 h-12', pos: 'bottom-20 right-[15%]' },
+              { label: 'Mobile', delay: 2, color: 'from-accent to-[var(--brand-cyan-dark)]', size: 'w-20 h-20', pos: 'top-[40%] right-0' },
+              { label: 'Web', delay: 3, color: 'from-primary to-[var(--brand-orange-dark)]', size: 'w-14 h-14', pos: 'bottom-[30%] left-0' },
             ].map((node, idx) => (
               <motion.div
                 key={idx}
@@ -225,12 +225,12 @@ export const Hero = () => {
               />
               <defs>
                 <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#00C2FF" stopOpacity="0" />
-                  <stop offset="100%" stopColor="#00C2FF" stopOpacity="0.5" />
+                  <stop offset="0%" stopColor="#10C4D4" stopOpacity="0" />
+                  <stop offset="100%" stopColor="#10C4D4" stopOpacity="0.5" />
                 </linearGradient>
                 <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#0F62FE" stopOpacity="0.5" />
-                  <stop offset="100%" stopColor="#0F62FE" stopOpacity="0" />
+                  <stop offset="0%" stopColor="#FF6B00" stopOpacity="0.5" />
+                  <stop offset="100%" stopColor="#FF6B00" stopOpacity="0" />
                 </linearGradient>
               </defs>
             </svg>

@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 import { HeartPulse, GraduationCap, Factory, ShoppingCart, Landmark, Truck, HardHat, Building2 } from 'lucide-react';
 
 const industries = [
-  { name: 'Healthcare', icon: HeartPulse, color: 'bg-rose-500/10 text-rose-500 border-rose-500/20' },
-  { name: 'Education', icon: GraduationCap, color: 'bg-blue-500/10 text-blue-500 border-blue-500/20' },
-  { name: 'Manufacturing', icon: Factory, color: 'bg-amber-500/10 text-amber-500 border-amber-500/20' },
-  { name: 'Retail & E-commerce', icon: ShoppingCart, color: 'bg-pink-500/10 text-pink-500 border-pink-500/20' },
-  { name: 'Finance & FinTech', icon: Landmark, color: 'bg-emerald-500/10 text-emerald-500 border-emerald-500/20' },
-  { name: 'Logistics', icon: Truck, color: 'bg-cyan-500/10 text-cyan-500 border-cyan-500/20' },
-  { name: 'Construction', icon: HardHat, color: 'bg-orange-500/10 text-orange-500 border-orange-500/20' },
-  { name: 'Government', icon: Building2, color: 'bg-indigo-500/10 text-indigo-500 border-indigo-500/20' },
+  { name: 'Healthcare', icon: HeartPulse, color: 'bg-primary/10 text-primary border-primary/20' },
+  { name: 'Education', icon: GraduationCap, color: 'bg-accent/10 text-accent border-accent/20' },
+  { name: 'Manufacturing', icon: Factory, color: 'bg-primary/10 text-primary border-primary/20' },
+  { name: 'Retail & E-commerce', icon: ShoppingCart, color: 'bg-accent/10 text-accent border-accent/20' },
+  { name: 'Finance & FinTech', icon: Landmark, color: 'bg-primary/10 text-primary border-primary/20' },
+  { name: 'Logistics', icon: Truck, color: 'bg-accent/10 text-accent border-accent/20'},
+  { name: 'Construction', icon: HardHat, color: 'bg-primary/10 text-primary border-primary/20' },
+  { name: 'Government', icon: Building2, color: 'bg-accent/10 text-accent border-accent/20' },
 ];
 
 export const Industries = () => {

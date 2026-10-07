@@ -45,7 +45,7 @@ export const CallToAction = () => {
             className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight"
           >
             Let's Build Something <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Extraordinary</span> Together
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-[var(--brand-orange-dark)]">Extraordinary</span> Together
           </motion.h2>
           
           <motion.p 
