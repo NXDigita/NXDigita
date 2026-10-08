@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Hexagon, Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { Link } from 'wouter';
+import favicon from "../../../public/favicon.ico"
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,9 +58,10 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-secondary to-accent">
+            {/* <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-secondary to-accent">
               <Hexagon className="text-white w-5 h-5 group-hover:rotate-12 transition-transform" />
-            </div>
+            </div> */}
+            <img src={favicon} alt="Logo" className="object-contain rounded w-8" />
             <span className="font-heading font-bold text-xl tracking-tight">NXDigita AI Technologies</span>
           </Link>
 
@@ -93,7 +95,7 @@ export const Navbar = () => {
               <a 
                 href="#contact"
                 onClick={(e) => scrollTo(e, '#contact')}
-                className="px-5 py-2.5 rounded-full bg-gradient-to-r from-secondary to-accent text-white text-sm font-medium hover:shadow-lg hover:shadow-secondary/25 transition-all hover:-translate-y-0.5"
+                className="px-5 py-2.5 rounded-full bg-[#E95D2A] from-secondary to-accent text-white text-sm font-medium hover:shadow-lg hover:shadow-secondary/25 transition-all hover:-translate-y-0.5"
               >
                 Get Started
               </a>

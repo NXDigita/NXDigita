@@ -104,7 +104,7 @@ export const WhyChooseUs = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-12">
-              Why Global Leaders <br />Partner With Us
+              Why Global Leaders <br /><span className="text-[#E85B28]">Partner With Us</span>
             </h2>
 
             <div className="grid sm:grid-cols-2 gap-8">
